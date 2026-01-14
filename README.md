@@ -69,7 +69,8 @@ The system is modular, extensible, and suitable for production-level improvement
 ├── main.py # Application entry point
 ├── requirements.txt
 ├── .env
-└── README.md```
+└── README.md
+```
 
 
 ## Installation
