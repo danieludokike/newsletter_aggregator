@@ -55,8 +55,7 @@ The system is modular, extensible, and suitable for production-level improvement
 
 ## Project Architecture
 
-newsletter_aggregator/
-│
+```newsletter_aggregator/
 ├── scraper/
 │ ├── hackernews.py # Hacker News scraper
 │ └── lobsters.py # Lobsters scraper
@@ -70,7 +69,7 @@ newsletter_aggregator/
 ├── main.py # Application entry point
 ├── requirements.txt
 ├── .env
-└── README.md
+└── README.md```
 
 
 ## Installation
@@ -80,11 +79,11 @@ git clone https://github.com/danieludokike/newsletter_aggregator.git
 cd newsletter_aggregator
 
 ### 2. Create and Activate Virtual Environment
-python -m venv venv
-source venv/bin/activate    # Windows: venv\Scripts\activate
+```python -m venv venv```
+```source venv/bin/activate```    # Windows: ```venv\Scripts\activate```
 
 ### 3. Install Dependencies
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ## Configuration
 
@@ -105,7 +104,7 @@ Never commit .env files to version control
 
 Run the application using:
 
-python main.py
+```python main.py```
 
 
 The application will:
